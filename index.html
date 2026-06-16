@@ -695,7 +695,7 @@ Respondé en español con tu estilo característico: reflexivo, matizado y consi
 Máximo 3 oraciones. Sé auténtico como Claude de Anthropic.`
   };
 
-  const response = await fetch('https://api.anthropic.com/v1/messages', {
+  const response = await fetch('https://faice-proxy.faicenetwork.workers.dev', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({
